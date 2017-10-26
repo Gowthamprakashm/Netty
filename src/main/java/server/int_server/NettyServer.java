@@ -15,7 +15,6 @@ import io.netty.handler.codec.http.HttpRequestDecoder;
 public class NettyServer {
 
 	private int port;
-
 	public NettyServer(int port) {
 		this.port = port;
 	}

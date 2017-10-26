@@ -13,7 +13,6 @@ public class PersonSerializer implements Serializer<Person> {
 
 	public void close() {
 		// TODO Auto-generated method stub
-
 	}
 
 	public void configure(Map<String, ?> arg0, boolean data) {
