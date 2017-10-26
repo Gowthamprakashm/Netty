@@ -24,7 +24,7 @@ public class Producer {
 		try
 		{
 			//Configure the Producer
-		
+			
 			configProperties.put(ProducerConfig.BOOTSTRAP_SERVERS_CONFIG,"localhost:9092");
 			
 			configProperties.put(ProducerConfig.KEY_SERIALIZER_CLASS_CONFIG,"org.apache.kafka.common.serialization.ByteArraySerializer");

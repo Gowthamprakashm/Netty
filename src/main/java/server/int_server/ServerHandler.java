@@ -17,7 +17,7 @@ import server.proto.PersonOuterClass.Person;
  */
 
 public class ServerHandler extends ChannelInboundHandlerAdapter { // (1)
-
+	
 	static String topic = null;
 	@Override
 	public void channelRead(ChannelHandlerContext ctx, Object msg) throws InvalidProtocolBufferException { // (2)
